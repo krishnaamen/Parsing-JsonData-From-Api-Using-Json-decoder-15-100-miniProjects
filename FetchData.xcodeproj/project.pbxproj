@@ -13,6 +13,8 @@
 		FAC23F5E268CC52100AD8BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC23F5C268CC52100AD8BE4 /* Main.storyboard */; };
 		FAC23F60268CC52400AD8BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC23F5F268CC52400AD8BE4 /* Assets.xcassets */; };
 		FAC23F63268CC52400AD8BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC23F61268CC52400AD8BE4 /* LaunchScreen.storyboard */; };
+		FAC23F6C268CC92200AD8BE4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC23F6B268CC92200AD8BE4 /* TableViewCell.swift */; };
+		FAC23F6F268CDCBC00AD8BE4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC23F6E268CDCBC00AD8BE4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAC23F5F268CC52400AD8BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC23F62268CC52400AD8BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC23F64268CC52400AD8BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC23F6B268CC92200AD8BE4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FAC23F6E268CDCBC00AD8BE4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FAC23F58268CC52100AD8BE4 /* SceneDelegate.swift */,
 				FAC23F5A268CC52100AD8BE4 /* ViewController.swift */,
 				FAC23F5C268CC52100AD8BE4 /* Main.storyboard */,
+				FAC23F6E268CDCBC00AD8BE4 /* DetailViewController.swift */,
+				FAC23F6B268CC92200AD8BE4 /* TableViewCell.swift */,
 				FAC23F5F268CC52400AD8BE4 /* Assets.xcassets */,
 				FAC23F61268CC52400AD8BE4 /* LaunchScreen.storyboard */,
 				FAC23F64268CC52400AD8BE4 /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC23F5B268CC52100AD8BE4 /* ViewController.swift in Sources */,
+				FAC23F6C268CC92200AD8BE4 /* TableViewCell.swift in Sources */,
+				FAC23F6F268CDCBC00AD8BE4 /* DetailViewController.swift in Sources */,
 				FAC23F57268CC52100AD8BE4 /* AppDelegate.swift in Sources */,
 				FAC23F59268CC52100AD8BE4 /* SceneDelegate.swift in Sources */,
 			);
